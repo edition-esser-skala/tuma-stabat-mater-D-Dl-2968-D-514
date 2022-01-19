@@ -1,20 +1,17 @@
 composer:
-  last:
-  first:
-title:
-id:
-genre:
-scoring:
+  last: Tůma
+  first: František Ignác Antonín
+title: Stabat mater
+genre: sequence
+scoring: S, A, T, B, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
-    siglum:
-    shelfmark:
-    date:
-    rism:
-    url:
-    license:
+    siglum: D-Dl
+    shelfmark: Mus.2968-D-514
+    date: 1890–1910
+    url: http://digital.slub-dresden.de/id480400431
+    rism: 1001001293
+    license: public domain
     principal: true
 imslp:
-parts:
-  ottoni: Clarino I, II in C\\Timpani in C–G
