@@ -136,3 +136,59 @@ OQuamBassoLyrics = \lyricmode {
   in -- cli --
   ti. %34 finis
 }
+
+SanctaBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoSancta
+    r2 r4 \mvTr g'8\fE^\tutti g
+    b2. a8([ g)]
+    fis4 g g( fis)
+    g r r g8 g
+    as2 g %5
+    f4 es d2
+    c4 c8 c d4 d
+    d4. d8 g,4 d'8 d
+    b'4. a8 g4. f8
+    es4 h c4. d8 %10
+    es4 e8 e f4 d
+    h c as2
+    g4 g'8 g f4 f
+    r f8 f es4 es
+    r as f g %15
+    e f r2
+    R1*2
+    g2. f4~
+    f es es8([ d)] c4 %20
+    c b!8([ c)] d2
+    d2. d4
+    d2. d4
+    d4. d8 g,2\fermata \bar "|." %24 finis
+  }
+}
+
+SanctaBassoLyrics = \lyricmode {
+  San -- cta
+  ma -- ter,
+  i -- stud a --
+  gas, cru -- ci --
+  fi -- xi %5
+  fi -- ge pla --
+  gas cor -- di me -- o
+  va -- li -- de. Tu -- i
+  na -- ti vul -- ne --
+  ra -- _ _ _ %10
+  ti, na -- ti vul -- ne --
+  ra -- _ _
+  ti, tam di -- gna -- ti
+  pro me pa -- ti,
+  poe -- _ _ %15
+  _ nas,
+
+  poe -- _ %19
+  nas me -- cum %20
+  di -- vi -- de,
+  poe -- nas
+  me -- cum
+  di -- vi -- de. %24 finis
+}

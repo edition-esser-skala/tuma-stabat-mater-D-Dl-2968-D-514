@@ -101,3 +101,34 @@ QuisEstViolinoI = {
     R1\fermata \bar "|." %31 finis
   }
 }
+
+SanctaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoSancta
+    r4 d'8\fE d es2~
+    es4 d c2~
+    c4 b a2
+    g4-\critnote r r h
+    c2 b %5
+    h4 c2 h4
+    c c8 es a,4 b8 c
+    a2\trill g4 r
+    R1
+    r4 g8 g es'4. d8 %10
+    c4 b! as2
+    g2. f4
+    g g8 g g4 g
+    r g8 g g4 g
+    c2. b!4~ %15
+    b as r2
+    ges2 f4. b8~
+    b4 as g c~
+    c8 h c4 as2
+    g~ g4. c8 %20
+    a!4 b! a d
+    b c a b
+    a2~ a8 d, g4~
+    g fis g2\fermata \bar "|." %24 finis
+  }
+}

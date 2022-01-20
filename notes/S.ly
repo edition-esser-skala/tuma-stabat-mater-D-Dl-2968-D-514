@@ -130,3 +130,61 @@ QuisEstSopranoLyrics = \lyricmode {
   De -- um, ut si -- bi com -- %30
   pla -- ce -- am. %31 finis
 }
+
+SanctaSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoSancta
+    r4 \mvTr d'8\fE^\tutti d es2~
+    es4 d c2~
+    c4 b a2
+    g4^\critnote r r h8 h
+    c2 b %5
+    h4 c c( h)
+    c c8 es a,4 b8([ c)]
+    a4. a8 g4 r
+    R1
+    r4 g8 g es'4. d8 %10
+    c4 b! as2
+    g2. f4
+    g g8 g g4 g
+    r g8 g g4 g
+    c2. b!4~ %15
+    b as r2
+    ges2 f4. b8~
+    b4 as g c~
+    c8 h c4 as4. as8
+    g2~ g4. c8 %20
+    a!4( b!8.) b16 a4 d
+    b c a b
+    a2~ a8 d, g4~
+    g fis8. fis16 g2\fermata \bar "|." %24 finis
+  }
+}
+
+SanctaSopranoLyrics = \lyricmode {
+  San -- cta ma --
+  ter, i --
+  stud a --
+  gas, cru -- ci --
+  fi -- xi %5
+  fi -- ge pla --
+  gas cor -- di me -- o __
+  va -- li -- de.
+
+  Tu -- i na -- ti %10
+  vul -- ne -- ra --
+  _ _
+  ti, tam di -- gna -- ti
+  pro me pa -- ti,
+  poe -- _ %15
+  nas,
+  poe -- nas me --
+  _ cum di --
+  vi -- de, poe -- nas
+  me -- cum %20
+  di -- vi -- de, poe --
+  _ _ _ nas
+  me -- cum di --
+  _ vi -- de. %24 finis
+}

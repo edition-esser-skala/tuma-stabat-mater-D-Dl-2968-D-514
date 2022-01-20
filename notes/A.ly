@@ -131,3 +131,61 @@ QuisEstAltoLyrics = \lyricmode {
   De -- um, ut si -- bi com -- %30
   pla -- ce -- am. %31 finis
 }
+
+SanctaAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoSancta
+    r2 r4 \mvTr g'8\fE^\tutti g
+    f2 g4 a~
+    a g es( d)
+    d d8 d g2~
+    g4 f f es %5
+    d es f2
+    es4 g8 g fis4 g
+    g fis g r
+    r d8 d b'4. a8
+    g4. g8 g2~ %10
+    g2. f4~
+    f es2 d8[ c]
+    d4 d8 d d4 d
+    r d8 d es4 es
+    R1 %15
+    r2 f~
+    f4 es2 des4
+    c f2 es4
+    d! c es f
+    d es es8[( f] g8.) g16 %20
+    fis4 g fis b
+    g a fis g
+    fis8([ e d c] b4.) c8
+    d4. d8 d2\fermata \bar "|." %24 finis
+  }
+}
+
+SanctaAltoLyrics = \lyricmode {
+  San -- cta
+  ma -- ter, i --
+  stud a --
+  gas, cru -- ci -- fi --
+  xi fi -- ge, %5
+  fi -- ge pla --
+  gas cor -- di me -- o
+  va -- li -- de.
+  Tu -- i na -- ti
+  vul -- ne -- ra -- %10
+  _
+  _ _
+  ti, tam di -- gna -- ti
+  pro me pa -- ti,
+  %15
+  poe --
+  _ _
+  nas, poe -- _
+  _ nas, poe -- nas
+  me -- cum di -- vi -- %20
+  de, poe -- _ _
+  _ _ _ nas
+  me -- cum
+  di -- vi -- de. %24 finis
+}

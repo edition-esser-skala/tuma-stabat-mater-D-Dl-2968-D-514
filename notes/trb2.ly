@@ -42,3 +42,34 @@ OQuamTromboneII = {
     R2.\fermata \bar "|." %37 finis
   }
 }
+
+SanctaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \minor \time 4/4 \tempoSancta
+    r2 r4 b8\fE b
+    b2 es
+    d4 d c2
+    b4 r r d8 d
+    c4 as b! b %5
+    as g f2
+    g4 c8 c c4 b!
+    d4. d8 d4 r
+    r2 r4 g,8 g
+    es'4. d8 d c c h %10
+    c2. d4~
+    d c8 h c2
+    h4 h8 h h4 h
+    r h8 h c4 c
+    r2 des %15
+    c r4 des
+    b c a! b
+    R1
+    r4 es c d
+    h c c8 d es4 %20
+    d4. d8 d2
+    d1~
+    d4 a b4. a16 g
+    a4. a8 g2\fermata \bar "|." %24 finis
+  }
+}

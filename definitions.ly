@@ -11,6 +11,7 @@ tempoOQuam = \tempoMarkup "[Tempo deest]"
 tempoQuisEst = \tempoMarkup "Andante"
   tempoProPeccatis = \tempoMarkup "Larghetto"
   tempoEiaMater = \tempoMarkup "Andante"
+tempoSancta = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/trb1.ly"

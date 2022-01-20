@@ -241,3 +241,61 @@ QuisEstBassFigures = \figuremode {
   r <6>4. \bo <[6 _-]>4 \bc <[6- \l]>8 %30
   <6 [5]>1 %31 finis
 }
+
+SanctaOrgano = {
+  \relative c {
+    \clef treble
+    \key g \minor \time 4/4 \tempoSancta
+    r4-\critnote \mvTr d''8 \fE-\tuttiE d es4 \clef bass g,,
+    b2. a8 g
+    fis4 g2 fis4
+    g r r g
+    as2 g %5
+    f4 es d2
+    c d~
+    d g,4 d'
+    b'4. a8 g4. f8
+    es4 h c4. d8 %10
+    es4 e f d4
+    h c as2
+    g4 g' f2
+    r4 f es2
+    r4 as f g %15
+    e f \clef "treble_8" r des'
+    b c a! b
+    \clef treble << { b' as g c } \\ { c, f2 es4 } >>
+    \clef bass g,2. f4~
+    f es es8 d c4~ %20
+    c b!8 c d2~-\tasto
+    d1~
+    d~
+    d2 g,\fermata \bar "|." %24 finis
+  }
+}
+
+SanctaBassFigures = \figuremode {
+  r2. <6>4
+  <5 4> <\t 3> <4 2> <5>
+  <6 5>2 <4 2>4 <6 5>
+  r2. <_!>4
+  <7> <6> <7 _-> <6> %5
+  <6 4! _-> <6> <7> <6!>
+  r2 <7 _+>4 <6 4->
+  <5 \t> <\t _+> r <1>
+  q <3> <10>4. q8
+  r4 <6 4>8 <\t 3> <9> <8>4 <6!>8 %10
+  <6>4 <6 5-> <10- 9> <[5-]>
+  <6 5>2 <7>4 <6>
+  <_!>2 <4! 2>
+  r4 <\t \t> <6>2
+  r4 <10> <6- 5> <5-> %15
+  <6 5> <_->2 <[3]>4
+  <6- 5> <5-> <6 5-> <_->
+  r1
+  <5 4>8 <\t _!> <6 4>4 <4 2-> <6 [_-]>
+  <4! 2> <6>2. %20
+  <4+ 2>4 <6> <_+>2
+  r1
+  r
+  <4>4 <_+>2. %24 finis
+}

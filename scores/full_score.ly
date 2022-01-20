@@ -124,54 +124,123 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Quis est homo"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #2 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuisEstViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuisEstViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \QuisEstSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \QuisEstSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \QuisEstAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \QuisEstAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \QuisEstTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \QuisEstTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuisEstOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuisEstBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Quis est homo"
-    % \addTocEntry
-    \paper { systems-per-page = #2 }
+    \section "4" "Sancta mater"
+    \addTocEntry
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SanctaTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SanctaTromboneII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \QuisEstViolinoI
+              \SanctaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \QuisEstViolinoII
+              \SanctaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuisEstSoprano }
+            \new Voice = "Soprano" { \dynamicUp \SanctaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \QuisEstSopranoLyrics
+          \new Lyrics \lyricsto Soprano \SanctaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \QuisEstAlto }
+            \new Voice = "Alto" { \dynamicUp \SanctaAlto }
           }
-          \new Lyrics \lyricsto Alto \QuisEstAltoLyrics
+          \new Lyrics \lyricsto Alto \SanctaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \QuisEstTenore }
+            \new Voice = "Tenore" { \dynamicUp \SanctaTenore }
           }
-          \new Lyrics \lyricsto Tenore \QuisEstTenoreLyrics
+          \new Lyrics \lyricsto Tenore \SanctaTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \SanctaBasso }
+          }
+          \new Lyrics \lyricsto Basso \SanctaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            \transpose c c,
-            \QuisEstOrgano
+            % \transpose c c,
+            \SanctaOrgano
           }
         >>
-        \new FiguredBass { \QuisEstBassFigures }
+        \new FiguredBass { \SanctaBassFigures }
       >>
-      % \layout { }
+      \layout { }
       \midi { \tempo 4 = 80 }
     }
   }
