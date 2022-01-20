@@ -79,3 +79,54 @@ OQuamSopranoLyrics = \lyricmode {
   in -- cli --
   ti. %34 finis
 }
+
+QuisEstSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoQuisEst
+    r2 r4 \mvTr a'8\pE^\solo c
+    c16([ a)] b8 r4 r g8 c
+    a16([ g)] a8 r4 r g8 g
+    a a h8. h16 c4 c8 a
+    b h cis8. cis16 d4 d %5
+    d( cis8.) cis16 d4 d8 c?
+    c h r4 r c8 b
+    b a r4 r g
+    as8([ a)] b h c16([ h)] c8 r a
+    b([ h)] c cis d16([ cis)] d8 b4 %10
+    a4. a8 g4 \tempoProPeccatis r
+    R1*11 %22
+    \tempoEiaMater R1
+    r4 g8 g a b c b16([ a)]
+    b([ a)] g8 r4 as8 as as b %25
+    g g ges4 f f8 b
+    b as as8. as16 as8 g16([ as)] f8. f16
+    es4 g8 a fis g c b16([ a)]
+    b([ a)] g8 b as16([ g)] f8 g c d
+    es16([ d)] es8 b4 c8([ d)] es as, %30
+    f4. f8 es2\fermata \bar "|." %31 finis
+  }
+}
+
+QuisEstSopranoLyrics = \lyricmode {
+  Qui non
+  fle -- ret, si vi --
+  de -- ret in tan --
+  to sup -- pli -- ci -- o, in tan --
+  to sup -- pli -- ci -- o, sup -- %5
+  pli -- ci -- o? Quis non
+  pos -- set Chri -- sti
+  ma -- trem do --
+  len -- tem, do -- len -- tem, do --
+  len -- tem, do -- len -- tem cum %10
+  fi -- li -- o?
+
+  E -- ia, ma -- ter, fons a -- %24
+  mo -- ris, me sen -- ti -- re %25
+  vim do -- lo -- ris fac, ut
+  te -- cum, fac, ut te -- cum lu --
+  ge -- am. Fac, ut ar -- de -- at cor
+  me -- um in a -- man -- do Chri -- stum
+  De -- um, ut si -- bi com -- %30
+  pla -- ce -- am. %31 finis
+}

@@ -78,3 +78,26 @@ OQuamViolinoII = {
     d r r\fermata \bar "|." %37 finis
   }
 }
+
+QuisEstViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoQuisEst
+    R1*10 %10
+    << { \oneVoice R1 } \\ { s2. \tempoProPeccatis s4 } >>
+    r8 d'4\p f,8 as2
+    r8 c4 g8 g2
+    r r8 b!4 g8
+    f c'4 as8 f4 r %15
+    r2 r8 f'4 c8
+    as4 r r2
+    r8 es4 b8 g4 r
+    c1
+    d %20
+    es2 d\trill
+    c8 \noBeam c\pp c4 c8 c c h
+    \tempoEiaMater c4 r r2
+    R1*7 %30
+    R1\fermata \bar "|." %31 finis
+  }
+}

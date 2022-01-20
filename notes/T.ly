@@ -1,35 +1,5 @@
 \version "2.22.0"
 
-% 5
-% Quis est ho -- mo, qui non fle -- ret,
-% ma -- trem Chri -- sti si vi -- de -- ret
-% in tan -- to sup -- pli -- ci -- o?
-%
-% 6
-% Quis non pos -- set con -- tri -- sta -- ri,
-% pi -- am ma -- trem con -- tem -- pla -- ri (or: Chri -- sti ma -- trem con -- tem -- pla -- ri)
-% do -- len -- tem cum fi -- li -- o?
-%
-% 7
-% Pro pec -- ca -- tis su -- ae gen -- tis
-% vi -- dit Ie -- sum in tor -- men -- tis
-% et fla -- gel -- lis sub -- di -- tum.
-%
-% 8
-% Vi -- dit su -- um dul -- cem na -- tum
-% mo -- ri -- en -- tem, de -- so -- la -- tum, (or: mo -- ri -- en -- do de -- so -- la -- tum,)
-% dum e -- mi -- sit spi -- ri -- tum.
-%
-% 9
-% E -- ia, ma -- ter, fons a -- mo -- ris,
-% me sen -- ti -- re vim do -- lo -- ris
-% fac, ut te -- cum lu -- ge -- am.
-%
-% 10
-% Fac, ut ar -- de -- at cor me -- um
-% in a -- man -- do Chri -- stum De -- um,
-% ut si -- bi com -- pla -- ce -- am.
-%
 % 11
 % San -- cta ma -- ter, i -- stud a -- gas,
 % cru -- ci -- fi -- xi fi -- ge pla -- gas
@@ -219,4 +189,41 @@ OQuamTenoreLyrics = \lyricmode {
   poe -- nas
   in -- cli --
   ti. %34 finis
+}
+
+QuisEstTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 4/4 \autoBeamOff \tempoQuisEst
+    R1*10 %10
+    r2 r4 \tempoProPeccatis \mvTr d8\pE^\solo d
+    h4 h r d8 es
+    c4 c r g8 g
+    c c c c des2
+    c4 r r c8 c %15
+    des b g8. g16 f4 r
+    r c'8 c c b f as
+    as4 g r ges8 ges
+    ges4 ges r c8 c
+    c4 h r h8 h %20
+    c([ d)] es4 h4. h8
+    c4 r r2
+    \tempoEiaMater R1*8 %30
+    R1\fermata \bar "|." %31 finis
+  }
+}
+
+QuisEstTenoreLyrics = \lyricmode {
+  Pro pec -- %11
+  ca -- tis su -- ae
+  gen -- tis vi -- dit
+  Ie -- sum in tor -- men --
+  tis et fla -- %15
+  gel -- lis sub -- di -- tum.
+  Vi -- dit su -- um dul -- cem
+  na -- tum mo -- ri --
+  en -- do de -- so --
+  la -- tum, dum e -- %20
+  mi -- sit spi -- ri --
+  tum. %22 finis
 }

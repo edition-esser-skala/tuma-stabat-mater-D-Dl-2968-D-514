@@ -8,6 +8,9 @@
 
 tempoStabatMater = \tempoMarkup "Larghetto"
 tempoOQuam = \tempoMarkup "[Tempo deest]"
+tempoQuisEst = \tempoMarkup "Andante"
+  tempoProPeccatis = \tempoMarkup "Larghetto"
+  tempoEiaMater = \tempoMarkup "Andante"
 
 
 \include "notes/trb1.ly"

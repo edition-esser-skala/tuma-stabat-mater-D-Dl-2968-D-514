@@ -169,3 +169,75 @@ OQuamBassFigures = \figuremode {
   \bc q4 \bassFigureExtendersOff \bo <[5!] 4> \bc <[\t] _+>4
   r2. %37 finis
 }
+
+QuisEstOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoQuisEst
+    \mvTr g8\pE-\soloE a b g d'8. e16 fis8 d
+    g g, b g c8. d16 es8 c
+    f f, a f b a g c
+    f, f'16 es! d8 g c, b a d
+    g, g'16 f! e8 a d, c! b a %5
+    gis4 a d8 d16 e f8 d
+    g g, h g c8. d16 es8 c
+    f f, a f b4 b'8 g
+    f es d g c, b a d
+    g, g'16 f e8 a d,4 es8 b %10
+    c a d d, g4 \tempoProPeccatis g'
+    f!1
+    es~
+    es2 e
+    f1 %15
+    b,4 c f,2~
+    f d'!
+    es es
+    a, r4 as
+    g2 f' %20
+    es4 c g' g,
+    c8 r r4 fis,\ppE g
+    \tempoEiaMater c8 d es\pE c f es d g
+    c,4 b!8 es c b a d
+    g,4 b c d %25
+    es a, b8 c d b
+    f' f, as f b2
+    es,4 es'8 c d c16 b a8 d
+    g,4 g'8 as b g f b
+    es, f g es as f es c %30
+    as4 b es,2\fermata \bar "|." %31 finis
+  }
+}
+
+QuisEstBassFigures = \figuremode {
+  r2 <4>8 <_+> \bo <[6 \l]> \bc <[7 _+]>
+  <4> <3>2..
+  r2. <6!>8 <\t>
+  r4 <6!>8 <\t> <_-> <4!> <6\\> <\t>
+  <_-> <_!> <6\\> <_+> <[_!]>2 %5
+  <7 5 [_!]>8 <[6 5 \t]> <[5!] _+>2 <6>8 <7>
+  <4> <_!> <[6]> <7 _!> <4> <_-> <6> <7->
+  <4> <3> <[6]> <7> <4> <3> <6> <\t>
+  <_-> <4!> <6> <_!> <_-> <4!> <6> <_+>
+  <_-> <_!> <6> <[5!] _+> <_+>4 <5>8 <6> %10
+  <6 5>4 <_+>2.
+  <6 4! _->1
+  <6>
+  r2 <7- 5->
+  <_->1 %15
+  <_->4 <4>8 <_!> <_->2
+  r <7>8 <6>4 <5->8
+  <4->4 <3> <_->2
+  <7->2. <6\\>4
+  <4> <_!> <4! 2>2 %20
+  <6> <_!>
+  r2 \bo <[6 5]>4 <5 4>8 \bc <[\t _!]>
+  r2 <6 [_-]>8 <[6]> <7 [5-]> <_!>
+  r4 <6> <6>8 <[6]> <7> <_+>
+  r4 <6> <6- 5> <6 [5-]> %25
+  <9> <7- 5>2 <6>4
+  <4>8 <_->4. <7- 5>8 <6 4> <5 3>4
+  r4. <6!>8 <_+>4 <7>8 <_+>
+  r4 <6>8 q r <[6]> <_->4
+  r <6>4. \bo <[6 _-]>4 \bc <[6- \l]>8 %30
+  <6 [5]>1 %31 finis
+}

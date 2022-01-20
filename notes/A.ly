@@ -79,3 +79,55 @@ OQuamAltoLyrics = \lyricmode {
   in -- cli --
   ti. %34 finis
 }
+
+QuisEstAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoQuisEst
+    r4 \mvTr d8\pE^\solo g g16([ fis)] fis8 r4
+    r d8 g es!16([ d)] es8 r4
+    r c8 c d d e8. e16
+    f4 f8 d es e fis8. fis16
+    g4 g f f~ %5
+    f8 e e8. e16 d4 r
+    r d8 f f es! r4
+    r c8 es es d r4
+    r r8 d es([ e)] f fis
+    g16([ fis)] g8 r e fis16([ e)] fis8 g4 %10
+    g( fis8.) fis16 g4 \tempoProPeccatis r
+    R1*11
+    \tempoEiaMater r4 c,8 c d es f es16([ d)]
+    es([ d)] c8 r4 r2
+    r4 g'8 g g f f f
+    f4( es) d r
+    r c8 f d es16([ f)] d8. d16
+    es4 r r2
+    r4 es8 f d es as g16([ f)]
+    g([ f)] es8 r g es([ f)] g es
+    es4 d es2\fermata \bar "|."
+  }
+}
+
+QuisEstAltoLyrics = \lyricmode {
+  Quis est ho -- mo,
+  ma -- trem Chri -- sti
+  in tan -- to sup -- pli -- ci --
+  o, in tan -- to sup -- pli -- ci --
+  o, in tan -- to __ %5
+  sup -- pli -- ci -- o?
+  Con -- tri -- sta -- ri,
+  con -- tem -- pla -- ri
+  do -- len -- tem, do --
+  len -- tem, do -- len -- tem cum %10
+  fi -- li -- o?
+
+  E -- ia, ma -- ter, fons a -- %23
+  mo -- ris,
+  me sen -- ti -- re vim do -- %25
+  lo -- ris
+  fac, ut te -- cum lu -- ge --
+  am.
+  In a -- man -- do Chri -- stum
+  De -- um, ut si -- bi com -- %30
+  pla -- ce -- am. %31 finis
+}
