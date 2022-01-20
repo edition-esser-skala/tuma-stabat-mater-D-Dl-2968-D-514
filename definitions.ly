@@ -7,6 +7,7 @@
 
 
 tempoStabatMater = \tempoMarkup "Larghetto"
+tempoOQuam = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/trb1.ly"

@@ -56,3 +56,83 @@ StabatMaterBassoLyrics = \lyricmode {
   us, per -- trans -- i -- vit, per -- trans --
   i -- vit gla -- di -- us. %29 finis
 }
+
+OQuamBasso = {
+  \relative c {
+    \clef bass
+    \key d \phrygian \time 3/4 \autoBeamOff \tempoOQuam
+    r4 \mvTr d\fE^\tutti d
+    cis2 d4
+    r d d
+    c!2 b4
+    r b a %5
+    gis4. gis8 gis gis
+    a4 a r
+    d e d
+    cis d c?
+    h c b %10
+    a b( a)
+    gis a4. a8
+    d4 r r
+    r d d
+    c!2. %15
+    b4 r r
+    r g' g
+    g f es
+    d g f
+    es r r %20
+    r c' c
+    c b! as
+    g c b
+    as r r
+    r f f %25
+    fis4. fis8 fis fis
+    g2 g4
+    r g g
+    cis,2.
+    c\fermata %30
+    r4 b b
+    gis2 gis4
+    a2 a4
+    d r r
+    R2.*2 %36
+    R2.\fermata \bar "|." %37 finis
+  }
+}
+
+OQuamBassoLyrics = \lyricmode {
+  O quam
+  tri -- stis
+  et af --
+  fli -- cta
+  fu -- it %5
+  il -- la be -- ne --
+  di -- cta
+  ma -- _ _
+  _ _ _
+  _ _ _ %10
+  ter u --
+  ni -- ge -- ni --
+  ti!
+  Quae mae --
+  re -- %15
+  bat
+  et do --
+  le -- _ _
+  _ _ _
+  bat, %20
+  et do --
+  le -- _ _
+  _ _ _
+  bat,
+  pi -- a %25
+  ma -- ter dum vi --
+  de -- bat
+  na -- ti
+  poe --
+  nas, %30
+  na -- ti
+  poe -- nas
+  in -- cli --
+  ti. %34 finis
+}

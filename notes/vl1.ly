@@ -34,3 +34,47 @@ StabatMaterViolinoI = {
     g r r2\fermata \bar "|." %38 finis
   }
 }
+
+OQuamViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \phrygian \time 3/4 \tempoOQuam
+    r4 a'\fE a
+    b2 a4
+    r a a
+    a2 b4
+    r b b %5
+    h2.
+    a2 r4
+    b!2.
+    a
+    g %10
+    f
+    e4 e2
+    d4 a'8(\p b!) b( cis)
+    d4 a\fE a
+    a2. %15
+    b4 d8(\p es!) es( fis)
+    g4 g,\fE g
+    as a2
+    b4 h2
+    c4 g'8(\p as) as( h) %20
+    c4 g,\fE c
+    as b!2~
+    b4 c2
+    c4 c8(\p des) des( e)
+    f4 as,\fE as %25
+    a2 a4
+    g2.
+    r4 b! b
+    b2 a4
+    a2.\fermata %30
+    r4 b b
+    h2 h4
+    a2.
+    a4 a8(\p b!) b( cis)
+    d2.~ %35
+    d8 d,16( e) e2\trill
+    d4 r r\fermata \bar "|." %37 finis
+  }
+}
