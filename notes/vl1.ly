@@ -132,3 +132,73 @@ SanctaViolinoI = {
     g fis g2\fermata \bar "|." %24 finis
   }
 }
+
+FacMeTecumViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 3/4 \tempoFacMeTecum
+    R2.*3
+    r4 c'\fE g
+    as g r %5
+    r c8.( d32 es) d8 c
+    b( a) g4 r
+    r a' c
+    c8( h) h4 r
+    r g b %10
+    b8( as) as4 r
+    r r8 g c g
+    f4 r8 f d' f,
+    es d16 c d2\trill
+    c4 r r %15
+    R2.*2
+    r4 g'8(\fE as) g( f)
+    es( d) c4 r
+    R2.*2 %21
+    r4 b'8(\fE c) b( a)
+    g( fis) g4 r
+    R2.*10 %33
+    r4 d'\fE g,
+    as\trill g r %35
+    r c8.( b32 a) d8 c
+    b( a) g4 r
+    r r c~
+    c h2\trill
+    c4 g8.( as32 b) c8 b %40
+    as( g) f4 r
+    r f8.( g32 as) b8 as
+    g( f) es4 r
+    r g8.( a!32 b) a8 g
+    fis2 g4~ %45
+    g8. e16 fis2\trill
+    g4 r r
+    R2.*6 %54
+    r4 es8(\fE f) es( d)
+    c( h) c4 r %55
+    R2.*5 %60
+    r4 g8.(\fE as32 b!) c8 b
+    as( g) f4 r
+    r f8.( g32 as) b8 as
+    g( f) es4 b'
+    b8( as) as4 r %65
+    r r as
+    as8( g) g2
+    f4 f4.\trill es8
+    es4 r r
+    R2.*5 %74
+    r4 as'?8(\fE b) as?( g) %75
+    f( e) f4 r
+    R2.*11 %87
+    r4 c\fE g
+    as g r
+    r c8.( d32 es) d8 c %90
+    b( a) g4 r
+    r a' c
+    c8( h) h4 r
+    r g b
+    b8( as) as4 r %95
+    r r8 g c g
+    f4 r8 f d' f,
+    es d16 c d2\trill
+    c4 r r\fermata \bar "|." %99 finis
+  }
+}

@@ -189,3 +189,124 @@ SanctaAltoLyrics = \lyricmode {
   me -- cum
   di -- vi -- de. %24 finis
 }
+
+FacMeTecumAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 3/4 \autoBeamOff \tempoFacMeTecum
+    R2.*14 %14
+    r4 \mvTr g'\pE^\solo c, %15
+    des c r
+    r f8([ as)] g([ f)]
+    es([ d)] c4 r
+    R2.
+    r4 r g'~ %20
+    g8 a! fis2
+    g4 r r
+    r d g
+    g8([ fis)] fis4 r
+    r d f %25
+    f8([ e)] e4 r
+    r c es
+    es8([ d)] d4 r
+    c( d8[ e?)] f4
+    f8([ es)] es4 r %30
+    d( e8[ fis)] g4
+    g8([ fis)] fis4 g
+    a fis4. fis8
+    g4 r r
+    R2.*13 %47
+    r4 d d
+    es4. es8 d c
+    g'2. %50
+    fis2 r4
+    r g g
+    f!4. es8 f d
+    es([ d)] es4 r
+    R2. %55
+    r4 f2
+    f8([ e)] e4 r
+    r r as
+    as8([ g] g4.) f8
+    es([ f]) d4. d8 %60
+    c4 r r
+    R2.*6 %67
+    r4 f f
+    g4. g8 a! a
+    b([ a)] b4 r %70
+    R2.
+    r4 as as
+    as8([ g)] g4 g~
+    g8 f e4. e8
+    f4 r r %75
+    r c f
+    f4. f8 es! d
+    es([ d)] c4 es8 f
+    es4. g8 f es
+    d4 d r %80
+    r r g
+    as8([ g]) g4 g
+    g4.( f8) es([ d)]
+    es([ f)] d4. d8
+    c4 r r %85
+    R2.*13 %98
+    R2.\fermata \bar "|." %99 finis
+  }
+}
+
+FacMeTecumAltoLyrics = \lyricmode {
+  Fac me %15
+  te -- cum
+  pi -- e __
+  fle -- re,
+
+  pi -- %20
+  e fle --
+  re,
+  cru -- ci --
+  fi -- xo,
+  cru -- ci -- %25
+  fi -- xo
+  con -- do --
+  le -- re,
+  do -- nec
+  e -- go, %30
+  do -- nec
+  e -- go, e --
+  go vi -- xe --
+  ro.
+
+  Iux -- ta %48
+  cru -- cem te -- cum
+  sta -- %50
+  re,
+  et me
+  ti -- bi so -- ci --
+  a -- re
+  %55
+  in
+  plan -- ctu,
+  in
+  plan -- ctu
+  de -- si -- de -- %60
+  ro.
+
+  Vir -- go %68
+  vir -- gi -- num prae --
+  cla -- ra, %70
+
+  fac me
+  te -- cum, te --
+  cum plan -- ge --
+  re. %75
+  Fac, ut
+  por -- tem Chri -- sti
+  mor -- tem, pas -- si --
+  o -- nis fac con --
+  sor -- tem %80
+  et
+  pla -- gas, et
+  pla -- gas
+  re -- co -- le --
+  re. %85 finis
+}

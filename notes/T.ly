@@ -1,26 +1,5 @@
 \version "2.22.0"
 
-%
-% 13
-% Fac me te -- cum pi -- e fle -- re,
-% cru -- ci -- fi -- xo con -- do -- le -- re,
-% do -- nec e -- go vi -- xe -- ro
-%
-% 14
-% Iux -- ta cru -- cem te -- cum sta -- re,
-% te li -- ben -- ter so -- ci -- a -- re (or: et me ti -- bi so -- ci -- a -- re)
-% in plan -- ctu de -- si -- de -- ro.
-%
-% 15
-% Vir -- go vir -- gi -- num prae -- cla -- ra,
-% mi -- hi iam non sis a -- ma -- ra,
-% fac me te -- cum plan -- ge -- re.
-%
-% 16
-% Fac, ut por -- tem Chri -- sti mor -- tem,
-% pas -- si -- o -- nis fac con -- sor -- tem
-% et pla -- gas re -- co -- le -- re.
-%
 % 17
 % Fac me pla -- gis vul -- ne -- ra -- ri,
 % cru -- ce hac in -- e -- bri -- a -- ri
@@ -275,4 +254,115 @@ SanctaTenoreLyrics = \lyricmode {
   poe --
   nas me -- cum
   di -- vi -- de. %24 finis
+}
+
+FacMeTecumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 3/4 \autoBeamOff \tempoFacMeTecum
+    R2.*18 %18
+    r4 \mvTr c\pE^\solo g
+    as g r %20
+    r c8([ es)] d([ c)]
+    b([ a)] g4 r
+    R2.
+    r4 a c
+    c8([ h)] h4 r %25
+    r g b
+    b8([ a)] a4 r
+    f( g8[ a)] b4
+    b8([ a)] a4 r
+    g( a8[ h)] c4 %30
+    c8([ b)] b4 r
+    a4. a8 b4
+    a a4. a8
+    g4 r r
+    R2.*11 %45
+    r4 a a
+    b4. b8 a g
+    d'2.~
+    d4 c r
+    r b b %50
+    a4. a8 d c
+    b g b4 b
+    a4. a8 h h
+    c([ h)] c4 r
+    r c2 %55
+    c8([ h)] h4 r
+    r b2
+    b8([ as)] as4 c
+    h2 h4
+    c8([ d)] h4. h8 %60
+    c4 r r
+    R2.*8 %69
+    r4 d d %70
+    e4. e8 d e
+    f([ e)] f4 r
+    r c4. b8
+    as b g4. g8
+    f4 r r %75
+    R2.*2
+    r4 g g
+    c4. es8 d c
+    h([ a)] g4 c %80
+    des8([ c)] c4 r
+    r r d
+    es4.( d8) c([ h)]
+    c([ d)] h4. h8
+    c4 r r %85
+    R2.*13 %98
+    R2.\fermata \bar "|." %99 finis
+  }
+}
+
+FacMeTecumTenoreLyrics = \lyricmode {
+  Fac me %19
+  te -- cum %20
+  pi -- e __
+  fle -- re,
+
+  con -- do --
+  le -- re, %25
+  con -- do --
+  le -- re,
+  do -- nec
+  e -- go,
+  do -- nec %30
+  e -- go,
+  do -- nec e --
+  go vi -- xe --
+  ro.
+
+  Iux -- ta %46
+  cru -- cem te -- cum
+  sta --
+  re,
+  et me %50
+  ti -- bi so -- ci --
+  a -- re, et me
+  ti -- bi so -- ci --
+  a -- re
+  in %55
+  plan -- ctu,
+  in
+  plan -- ctu, in
+  plan -- ctu
+  de -- si -- de -- %60
+  ro.
+
+  Mi -- hi %70
+  iam non sis a --
+  ma -- ra,
+  fac me
+  te -- cum plan -- ge --
+  re. %75
+
+  Pas -- si -- %78
+  o -- nis fac con --
+  sor -- tem et %80
+  pla -- gas,
+  et
+  pla -- gas
+  re -- co -- le --
+  re. %85 finis
 }
