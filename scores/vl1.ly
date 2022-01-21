@@ -1,21 +1,23 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Stabat mater"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper {
+      systems-per-page = #6
+      indent = 2\cm
+    }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \StabatMaterOrgano
+          \set Staff.instrumentName = "Violino I"
+          \StabatMaterViolinoI
         }
-        \new FiguredBass { \StabatMaterBassFigures }
       >>
     }
   }
@@ -25,18 +27,17 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \OQuamOrgano }
-        \new FiguredBass { \OQuamBassFigures }
+        \new Staff { \OQuamViolinoI }
       >>
     }
   }
   \bookpart {
     \section "3" "Quis est homo"
     \addTocEntry
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \QuisEstOrgano }
-        \new FiguredBass { \QuisEstBassFigures }
+        \new Staff { \QuisEstViolinoI }
       >>
     }
   }
@@ -46,8 +47,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctaOrgano }
-        \new FiguredBass { \SanctaBassFigures }
+        \new Staff { \SanctaViolinoI }
       >>
     }
   }
@@ -56,8 +56,10 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \FacMeTecumOrgano }
-        \new FiguredBass { \FacMeTecumBassFigures }
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
+          \FacMeTecumViolinoI
+        }
       >>
     }
   }
@@ -66,8 +68,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \FacMePlagisOrgano }
-        \new FiguredBass { \FacMePlagisBassFigures }
+        \new Staff { \FacMePlagisViolinoI }
       >>
     }
   }

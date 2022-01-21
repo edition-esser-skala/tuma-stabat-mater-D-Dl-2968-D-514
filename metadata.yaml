@@ -15,3 +15,5 @@ sources:
     license: public domain
     principal: true
 imslp:
+parts:
+  b: Violoncello solo\\Bassi

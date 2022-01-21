@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,10 +12,9 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
+          \set Staff.instrumentName = "Bassi"
           \StabatMaterOrgano
         }
-        \new FiguredBass { \StabatMaterBassFigures }
       >>
     }
   }
@@ -26,7 +25,6 @@
     \score {
       <<
         \new Staff { \OQuamOrgano }
-        \new FiguredBass { \OQuamBassFigures }
       >>
     }
   }
@@ -36,7 +34,6 @@
     \score {
       <<
         \new Staff { \QuisEstOrgano }
-        \new FiguredBass { \QuisEstBassFigures }
       >>
     }
   }
@@ -47,7 +44,18 @@
     \score {
       <<
         \new Staff { \SanctaOrgano }
-        \new FiguredBass { \SanctaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Fac me tecum"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "vlc" "solo" }
+          \FacMeTecumVioloncello
+        }
       >>
     }
   }
@@ -57,7 +65,6 @@
     \score {
       <<
         \new Staff { \FacMeTecumOrgano }
-        \new FiguredBass { \FacMeTecumBassFigures }
       >>
     }
   }
@@ -67,7 +74,6 @@
     \score {
       <<
         \new Staff { \FacMePlagisOrgano }
-        \new FiguredBass { \FacMePlagisBassFigures }
       >>
     }
   }
