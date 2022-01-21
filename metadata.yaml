@@ -3,7 +3,7 @@ composer:
   first: František Ignác Antonín
 title: Stabat mater
 genre: sequence
-scoring: S, A, T, B, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, vlc solo, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
