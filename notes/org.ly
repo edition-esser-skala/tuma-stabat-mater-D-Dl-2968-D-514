@@ -507,3 +507,154 @@ FacMeTecumBassFigures = \figuremode {
   r4 <4> <_!>
   r2. %99 finis
 }
+
+FacMePlagisOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoFacMePlagis
+    r4 \mvTr es2\fE-\tuttiE es4
+    \clef treble r b''8 h c4 \clef bass es,,8 e
+    f2. f8 fis
+    g2. g8 g
+    f!4. es8 d4 es %5
+    r es c2
+    a! b
+    \clef "treble_8" b'4 b \clef bass b,2
+    ges'4 es f f,
+    b b8 as g!2 %10
+    c r4 c
+    b!2 r4 c
+    d4. d8 es4 c
+    d2 g,4 r
+    r \mvTr g'\pE-\solo f! es8 d %15
+    c4 r r c
+    c d es r
+    r es c2
+    d4 cis d2
+    g,4 r r es'16( f) es( d) %20
+    c4 d8 d, g4 \mvTr g'\fE-\tutti
+    g,2 \tempoMorietur r4 \clef treble g''8\p g
+    << { d'2. c4~ c } \\ { r4 g,8 g es'2
+    d4 } >>
+    \clef bass g,,8 g es'2
+    \once \tieDashed d1~ %25
+    \once \tieDashed d2~ d\fermata
+    \clef treble \tempoFacUt << {
+      g'4.\fE g8 es'4. es8
+      d4. h8 c g c4~
+      c8 b a4 g8 a b a
+      r4 d8 d cis a c d16 c %30
+      h4 b8 c16 b a8 d4 c8
+    } \\ {
+      R1*2
+      r2 r8 d,4 d8
+      b'4. b8 a4. fis8 %30
+      g d g4~ g8 f e4
+    } >>
+    \clef "treble_8" g,4. g8 es'4. es8
+    d4. h8 c g c4
+    \clef bass d,4. d8 b'4. b8
+    a4. fis8 g d g4~ %35
+    g8 f e4 d \clef "treble_8" b'8 c~
+    c b16 a b8 g c4 \clef bass g8 g
+    fis d f g16 f e4 es8 f16 es
+    d8 e16 fis \once \tieDashed g4~ g8 f?16 g a8 a,
+    d4 \clef "treble_8" d'8 d cis a c d16 c %40
+    h4 b8 c16 b \clef bass a,4. a8
+    f'4. f8 e4. cis8
+    d a d2 cis4
+    d \clef "treble_8" f!8 g16 f e8 f16 g a4~
+    a8 g16 fis g4 d' \clef treble << {
+      a'8 h %45
+      c g c4
+    } \\ {
+      f,8 g16 f %45
+      e4 es8 f16 es
+    } >> \clef "treble_8" g,4. g8
+    es'4 \clef bass g,8 g fis d f g16 f
+    e4 es8 f16 es d8 c4 h8
+    c4 r g4. g8
+    es'4. es8 d c b a %50
+    g4 g'8 g fis d f g16 f
+    e8 f16 g \once \tieDashed a4~ a8 g16 f g8 g,
+    d'4 \clef "treble_8" d'8 d cis a c d16 c
+    h4 b8 c16 b a4 \clef treble << { a' } \\ { fis8 g16 a } >>
+    \clef "treble_8" g,4. g8 es'4. es8 %55
+    \clef bass d,4. d8 b'4. b8
+    a4. fis8 g f? es d
+    c2 b4. a8
+    g2 d'
+    d1~-\tasto %60
+    d~
+    d
+    g,4 r c2~
+    c g\fermata \bar "|." %64 FINIS
+  }
+}
+
+FacMePlagisBassFigures = \figuremode {
+  r1
+  r2. <6>8 <6 5->
+  <5 _->4 <\t _!>8 <5+ \t> <6 \t>4. <6 5!>8
+  <9 5>4 <8 \t>8 <\t 6> <\t 6!>2
+  \bo <[_- \l]>4. <\t>8 \bc <[6 5-]>2 %5
+  r1
+  \bo <[6 5]>2 <9>4 \bc <[8 \l]>
+  <_->2 <\t>
+  <[5-]>4 <6 5 [_-]> <4> <_!>
+  <_!>4. <6>8 <7 _!>2 %10
+  r1
+  <6>
+  <_+>2 <6>4 <8>8 <7>
+  <4>4 <_+>2.
+  r2 <4!>4 <6>8 <6!> %15
+  r1
+  <6- 5>4 <5-> <9> <8>
+  r <6>2.
+  <7 _+>4 <7 5 [_!]> <6 4> <5 _+>
+  r1 %20
+  <7 5>8 <6 \t> <_+>2.
+  r1
+  r
+  r2 <7 5>4 <6 4>8 <\t 3>
+  <8 _+>2 <6 5 _+>4 <\t 4> %25
+  <5 4>4 \bassFigureExtendersOn <5 _+>8 <5 2!> <5 _+>2 \bassFigureExtendersOff
+  r1
+  r
+  r
+  r %30
+  r
+  <5 4>4 <\t 3> <6>2
+  <_+>4 <[_!]>8 <6 5> <_!>4 <5 _->8 <6 \t>
+  <7 _+>8 <6- 4> <5 \t> <\t _+> <6>4 <5!>
+  <[5!] _+>4 <[\t _!]>8 <6 5> <_!>4 <_-> %35
+  <[6!] 4+ 2>8 <6> <7> <6!> <7 _+>4 <6>
+  <5 2>8 <6>4. r4 <6>
+  <6>4 <\t>8 <_!> <6>4 <\t>
+  <7 _+>2 <[6!] 4+ 2>8 <6> \bo <[5!] 4> \bc <[\t] _+>
+  <6>4 <\t>8 <5> \bo <6 [_!]>4 \bc <[\t] \t> %40
+  <7> <6> <7 [5!] _+>8 <6 4> <5! \t> <\t _+>
+  <6>2 <5! _+>4 <\t _!>8 <6 [5 _!]>
+  <_+> <\t> <_!>4 <4 2!> <6 [_!]>
+  <[_+]> <6> <6\\> <_!>
+  <2!> <_-> <_+>2 %45
+  r2 <4>8 <_->4.
+  \bo <[7]>8 \bc <[6]> <6> <5> <6>4 <\t>
+  <7> <6> \bo <[7]>8 \bc <[3]> <5 2> <6>
+  r2 <4>4 <_!>
+  <6>2 <_+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %50
+  r2 <6>4 <\t>
+  <6\\> <[5!] _!> <4 2!>8 <\t \t> <5 _->4
+  \bo <[_+]> \bc <[_!]> \bo <6 [_!]> \bc <\t [_-]>
+  <7> <6> <7>2
+  <9>4 <8> <7> <6> %55
+  <7 _+>8 <6 4> <5 \t> <\t _+> <6>2
+  \bo <[5!] _+>4 \bc <[\t] _!>8 <6> <_->4 <5>8 <6>
+  <7>4 <6> <[6]>4. <6\\>8
+  r2 <_+>
+  r1 %60
+  r
+  r2 <4>4 <_+>
+  r2 <9>
+  <8> <_!> %64 FINIS
+}

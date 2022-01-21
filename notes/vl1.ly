@@ -202,3 +202,71 @@ FacMeTecumViolinoI = {
     c4 r r\fermata \bar "|." %99 finis
   }
 }
+
+FacMePlagisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoFacMePlagis
+    r4 b'8\fE b es4 es
+    r b8 h c2~
+    c4 c8 cis d2~
+    d4 d8 es e2
+    f2. es4 %5
+    r es8 es es4 es
+    r8 es es es d4 d
+    des des des2~
+    des4 c c2\trill
+    b4 d8 f h,4. h8 %10
+    c4 c r es8 es
+    d4 d r es8 es
+    d4. d8 c4 c8 b
+    a4. a8 g4 d'16(\pE es) d( c)
+    b( a) g8 r4 r2 %15
+    r4 g'16( as) g( f) es( d) c8 r4
+    r2 r4 b'16( c) b( as)
+    g( f) es8 r4 r2
+    R1
+    r4 d16( es) d( c) b( a) b8 \once \tieDashed b4~ %20
+    b8 a a4\trill g r
+    << { \oneVoice R1 } \\ { s2 \tempoMorietur s } >>
+    R1*3
+    R1\fermata
+    \tempoFacUt g4.\fE g8 es'4. es8
+    d4. h8 c g c4~
+    c8 b a4 g8 a b a
+    r4 d8 d cis a c d16 c %30
+    h4 b8 c16 b a8 d4 c8~
+    c b16 a b4 b8( c) c( g)
+    a b16 c d4 g,4. a16 g
+    fis8 d d2 r4
+    R1*2 %36
+    g4. g8 es'4. es8
+    d4. h8 c g c4~
+    c b a8 d4 cis8
+    d4 f8 f e cis e f16 e %40
+    d4~ d8 e16 d cis8 d4 cis8
+    d4 d8 a h4. a8
+    a2 g4 a
+    a d8 d cis a c d16 c
+    h4 b8 c16 b a4. h8 %45
+    c g c4~ c8 b16 c d4~
+    d8 c b a16 g a4 r
+    r2 r8 g4 g8
+    es'4. es8 d4. h8
+    c4 g a d~ %50
+    d8 c b4 r d8 d
+    cis a c d16 c h4 b8 c16 b
+    a4. a8 a4 a~
+    a8 g16 fis g4~ g8 fis16 e fis8 g16 a
+    b4 d~ d8 c16 b \once \tieDashed c4~ %55
+    c8 b a4 g r
+    r2 g4. g8
+    es'4. es8 d4. fis,8
+    g2 fis4 d'8 d
+    cis a c d16 c h4 b8 c16 b %60
+    a4 a8 f! g a a4
+    d,2. d4
+    d d'2 c8 h
+    c2 h\fermata \bar "|." %64 FINIS
+  }
+}

@@ -1,29 +1,5 @@
 \version "2.22.0"
 
-% 17
-% Fac me pla -- gis vul -- ne -- ra -- ri,
-% cru -- ce hac in -- e -- bri -- a -- ri
-% ob a -- mo -- rem fi -- li -- i.
-%
-% 18
-% In -- flam -- ma -- tis et ac -- cen -- sus (or: Flam -- mis ne u -- rar suc -- cen -- sus,)
-% per te, vir -- go, sim de -- fen -- sus
-% in di -- e iu -- di -- ci -- i.
-%
-% 19
-% Fac me cru -- ce cu -- sto -- di -- ri,
-% mor -- te Chri -- sti prae -- mu -- ni -- ri,
-% con -- fo -- ve -- ri gra -- ti -- a.
-%
-% (or: Chri -- ste, cum sit hinc ex -- i -- re,
-% da per ma -- trem me ve -- ni -- re
-% ad pal -- mam vi -- cto -- ri -- ae.)
-%
-% 20
-% Quan -- do cor -- pus mo -- ri -- e -- tur,
-% fac ut a -- ni -- ma do -- ne -- tur
-% pa -- ra -- di -- si glo -- ri -- ae.
-
 StabatMaterTenore = {
   \relative c' {
     \clef "treble_8"
@@ -365,4 +341,134 @@ FacMeTecumTenoreLyrics = \lyricmode {
   pla -- gas
   re -- co -- le --
   re. %85 finis
+}
+
+FacMePlagisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 4/4 \autoBeamOff \tempoFacMePlagis
+    r4 \mvTr b8\fE^\tutti b b4 b
+    r2 r4 c8 b
+    as([ g)] f4 r d'8 c
+    b([ a)] b4 b4. b8
+    c2 b %5
+    r4 b8 b es4 es
+    r8 c c c c4 b
+    b b \once \tieDashed b2~
+    b4 b b( a!8.) a16
+    b4 b8 c d d d g, %10
+    g4 g r c8 c
+    d4 d r c8 c
+    a4 a8 a g4 es'8 es
+    a,4. d8 d4 r
+    r \mvTr g,8\pE^\solo g g g g f %15
+    g4 g r es'8 es
+    as, as as as g4 g
+    r es' es es8 es
+    d4 e8 e d4. d8
+    d4 r r2 %20
+    r r4 \mvTr d8\fE^\tutti d
+    d4 d \tempoMorietur r2
+    R1
+    r4 g,8\p g g2
+    a2. g4 %25
+    d'2 d\fermata
+    \tempoFacUt R1*5 %31
+    g,4.\fE g8 es'4. es8
+    d4. h8 c[ g] c4~
+    c8[ b] a4 r d8 d
+    cis a c[ d16 c] h4 b8[ c16 b] %35
+    a8 d4 c!8~ c[ b16 a] b8[ c]~
+    c[ b16 a] b8[ g] c4 b8 b
+    a b16([ c)] d4 g,2
+    a4 d e8 f! e8. e16
+    d4 d8 d cis a c[ d16 c] %40
+    h4 b8[ c16 b] a4. a8
+    a4 r r2
+    r r4 a8 a
+    fis d f[ g16 f] e8[ f16 g] a4~
+    a8[ g16 fis] g8. g16 d'4 r %45
+    r2 g,4. g8
+    es'4. d8 d4 d
+    d8[ g,] c4 d8[ es] d4
+    c8[ g] c4~ c8[ h16 a] h8[ c16 d]
+    g,4 g fis2 %50
+    g r
+    R1
+    r4 d'8 d cis a c([ d16 c]
+    h4 b8) c16([ b)] a4 r
+    g4. g8 es'4. es8 %55
+    d d d4 d d8 d
+    cis a c[ d16 c] b2~
+    b4 a b8 b4 c8
+    d2. r4
+    R1 %60
+    r4 d8 d cis a c[ d16 c]
+    h4 b8[ c16 b] a4. a8
+    g4 r es'2~
+    es4 d8[ c] d2\fermata \bar "|." %64 FINIS
+  }
+}
+
+FacMePlagisTenoreLyrics = \lyricmode {
+  Fac me pla -- gis
+  vul -- ne --
+  ra -- ri, vul -- ne --
+  ra -- ri, vul -- ne --
+  ra -- ri, %5
+  fac me cru -- ce
+  in -- e -- bri -- a -- ri
+  et cru -- o --
+  re fi -- li --
+  i. In -- flam -- ma -- tis et ac -- %10
+  cen -- sus per te,
+  vir -- go, sim de --
+  fen -- sus in di -- e iu --
+  di -- ci -- i.
+  Chri -- ste, cum sit hinc ex -- %15
+  i -- re, da per
+  ma -- trem me ve -- ni -- re
+  ad pal -- mam, ad
+  pal -- mam vi -- cto -- ri --
+  ae. %20
+  Quan -- do
+  cor -- pus
+  mo -- ri --
+  e --
+  _ _ %25
+  _ tur,
+
+  fac ut a -- ni -- %32
+  ma do -- ne -- _
+  tur pa -- ra --
+  di -- si glo -- _ _ %35
+  _ _ _ _
+  _ _ ri -- ae,
+  pa -- ra -- di -- si,
+  pa -- ra -- di -- si glo -- ri --
+  ae, pa -- ra -- di -- si glo -- %40
+  _ _ _ ri --
+  ae,
+  pa -- ra --
+  di -- si glo -- _ _
+  _ ri -- ae, %45
+  fac ut
+  a -- ni -- ma do --
+  ne -- _ _ _
+  _ _ _
+  tur, do -- ne -- %50
+  tur
+
+  pa -- ra -- di -- si glo --
+  ri -- ae,
+  fac ut a -- ni -- %55
+  ma do -- ne -- tur pa -- ra --
+  di -- si glo -- _
+  ri -- ae, glo -- ri --
+  ae,
+  %60
+  pa -- ra -- di -- si glo --
+  _ _ _ ri --
+  ae. A --
+  _ men. %64 FINIS
 }

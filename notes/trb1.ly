@@ -73,3 +73,68 @@ SanctaTromboneI = {
     d4. d8 d2\fermata \bar "|." %24 finis
   }
 }
+
+FacMePlagisTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoFacMePlagis
+    r4 g'8\fE g g4 g
+    r2 r4 g8 g
+    as4 a a4. a8
+    a4 g g4. g8
+    as2. g4 %5
+    r g8 g g4 g
+    r8 f f f f4 f
+    r2 f4 f
+    ges ges f4. f8
+    f4 f8 f f f f f %10
+    es4 es r g8 g
+    g4 g r g8 g
+    fis4 fis8 fis g4 g8 g
+    g4( fis8.) fis16 g4 r
+    R1*6 %20
+    r2 r4 b8\fE b
+    g4 g \tempoMorietur r2
+    r4 g,8\p g es'2
+    d2. c4
+    d8 e fis2 g4~ %25
+    g fis8 e fis2\fermata
+    \tempoFacUt R1*2
+    r2 r8 d4\fE d8
+    b'4. b8 a4. fis8 %30
+    g d g4~ g8 f e4
+    d2 r4 g8 g
+    fis d f g16 f e4 es8 f16 es
+    d8 g4 fis8 g4 f?8 e16 d
+    e8 f16 g a4 d,4. d8 %35
+    e f g8. g16 fis4 g8 f16 es?
+    d4 g2 g4
+    a4. g8 g4. g8
+    fis4 r r a8. a16
+    b4. a8 a4 a~ %40
+    a8 d, g4~ g8 f e4
+    d a'8 a gis e g a16 g
+    fis4 f8 g16 f e4. e8
+    d4 r r2
+    r4 g8 g fis d f g16 f %45
+    e4 es8 f16 es d4 r
+    r b'8 b a fis a b16 a
+    g4~ g8 as16 g f8 es f g
+    g4 r r2
+    r d4. d8 %50
+    b'4. b8 a4. a8
+    g f e4 d g8 g
+    fis d f g16 f e4 es8 f16 es
+    d4~ d8 es16 d c8 a a'4~
+    a8 g16 fis g4 g4. g8 %55
+    fis g g fis g4 r
+    R1
+    r2 d4. d8
+    b'4. b8 a4 fis
+    e fis g g8 g %60
+    fis d f g16 f e4 fis?
+    g8 d g2 fis4
+    g r g2~
+    g g\fermata \bar "|." %64 FINIS
+  }
+}

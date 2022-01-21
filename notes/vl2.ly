@@ -132,3 +132,71 @@ SanctaViolinoII = {
     d2 d\fermata \bar "|." %24 finis
   }
 }
+
+FacMePlagisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoFacMePlagis
+    r4 g'8\fE g g4 g
+    r2 r4 g8 g
+    as4 a a4. a8
+    a4 g g4. g8
+    as2. g4 %5
+    r g8 g g4 g
+    r8 f f f f4 f
+    r2 f4 f
+    ges2 f
+    f4 f8 f f4 f8 f %10
+    es4 es r g8 g
+    g4 g r g8 g
+    fis4. fis8 g2~
+    g4 fis g b16(\pE c) b( a)
+    \once \slurDashed g( fis) g8 r4 r2 %15
+    r4 es'16( f) es( d) c( h) c8 r4
+    r2 r4 g'16( as) g( f)
+    es( d) es8 r4 r2
+    R1
+    r4 b16( c) b( a) g( fis) g8 g4~ %20
+    g fis\trill g r
+    << { \oneVoice R1 } \\ { s2 \tempoMorietur s } >>
+    R1*3 %25
+    R1\fermata
+    \tempoFacUt R1*2
+    r2 r8 d4\fE d8
+    b'4. b8 a4. fis8 %30
+    g d g4~ g8 f e4
+    d2 r4 g8 g
+    fis d f g16 f e4 es8 f16 es
+    d8 g4 fis8 g4 f?8 e16 d
+    e8 f16 g a4 d,2 %35
+    e8 f g4 fis g8 f16 es?
+    d4 g2 g4
+    a4. g8 g2
+    fis4 r r a8. a16
+    b4. a8 a4 a~ %40
+    a8 d, g4~ g8 f e4
+    d a'8 a gis e g a16 g
+    fis4 f8 g16 f e4. e8
+    d4 r r2
+    r4 g8 g fis d f g16 f %45
+    e4 es8 f16 es d4 r
+    r b'8 b a fis a b16 a
+    g4~ g8 as16 g f8 es f g
+    g4 r r2
+    r d4. d8 %50
+    b'4. b8 a4. a8
+    g f e4 d g8 g
+    fis d f g16 f e4 es8 f16 es
+    d4~ d8 es16 d c8 a a'4~
+    a8 g16 fis g4 g4. g8 %55
+    fis g4 fis8 g4 r
+    R1
+    r2 d4. d8
+    b'4. b8 a4 fis
+    e fis g2 %60
+    fis8 d f g16 f e4 fis?
+    g8 d g2 fis4
+    g r g2~
+    g g\fermata \bar "|." %64 FINIS
+  }
+}

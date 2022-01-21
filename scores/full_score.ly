@@ -244,51 +244,120 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Fac me tecum"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \set StaffGroup.instrumentName = "solo"
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vl"
+  %           \FacMeTecumViolinoI
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vlc"
+  %           \FacMeTecumVioloncello
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \FacMeTecumAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \FacMeTecumAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \FacMeTecumTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \FacMeTecumTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \FacMeTecumOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \FacMeTecumBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 105 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Fac me tecum"
+    \section "6" "Fac me plagis"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
     \score {
       <<
         \new StaffGroup <<
-          \set StaffGroup.instrumentName = "solo"
-          \new Staff {
-            \set Staff.instrumentName = "vl"
-            \FacMeTecumViolinoI
-          }
-          \new Staff {
-            \set Staff.instrumentName = "vlc"
-            \FacMeTecumVioloncello
-          }
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \FacMePlagisTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \FacMePlagisTromboneII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \FacMePlagisViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \FacMePlagisViolinoII
+            }
+          >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \FacMeTecumAlto }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \FacMePlagisSoprano }
           }
-          \new Lyrics \lyricsto Alto \FacMeTecumAltoLyrics
+          \new Lyrics \lyricsto Soprano \FacMePlagisSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \FacMePlagisAlto }
+          }
+          \new Lyrics \lyricsto Alto \FacMePlagisAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \FacMeTecumTenore }
+            \new Voice = "Tenore" { \dynamicUp \FacMePlagisTenore }
           }
-          \new Lyrics \lyricsto Tenore \FacMeTecumTenoreLyrics
+          \new Lyrics \lyricsto Tenore \FacMePlagisTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \FacMePlagisBasso }
+          }
+          \new Lyrics \lyricsto Basso \FacMePlagisBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \FacMeTecumOrgano
+            \FacMePlagisOrgano
           }
         >>
-        \new FiguredBass { \FacMeTecumBassFigures }
+        \new FiguredBass { \FacMePlagisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 105 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

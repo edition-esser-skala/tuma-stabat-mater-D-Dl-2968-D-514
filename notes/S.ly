@@ -188,3 +188,140 @@ SanctaSopranoLyrics = \lyricmode {
   me -- cum di --
   _ vi -- de. %24 finis
 }
+
+FacMePlagisSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoFacMePlagis
+    r4 \mvTr b'8\fE^\tutti b es4 es
+    r b8 h c2
+    c4 c8 cis d2
+    d4 d8 es e2
+    f2. es4 %5
+    r es8 es es4 es
+    r8 es es es d4 d
+    des des des2~
+    des4 c c4. c8
+    b4 d8 f h, h h h %10
+    c4 c r es8 es
+    d4 d r es8 es
+    d4 d8 d c4 c8 b
+    a4. a8 g4 r
+    r \mvTr b8\pE^\solo b h h c d %15
+    es4 es r c8 c
+    c c b b b4 b
+    r c c c8 c
+    c4 b8 b b4( a8.) a16
+    g4 r r2 %20
+    r r4 \mvTr d'8\fE^\tutti d
+    b4 b \tempoMorietur r g8\p g
+    d'2. c4~
+    c b2 a8[ g]
+    fis[ g] a4 b2 %25
+    a a\fermata
+    \tempoFacUt g4.\fE g8 es'4. es8
+    d4. h8 c[ g] c4~
+    c8[ b] a4 g8 a b a
+    r4 d8 d cis a c[ d16 c] %30
+    h4 b8[ c16 b] a8 d4 c8~
+    c b16([ a)] b4 b8([ c)] c([ g)]
+    a([ b16 c)] d4 g,4.( a16[ g]
+    fis8) d d2 r4
+    R1*2 %36
+    g4. g8 es'4. es8
+    d4. h8 c[ g] c4~
+    c b a8 d d([ cis)]
+    d4 f8 f e cis e[ f16 e] %40
+    d4~ d8[ e16 d] cis8 d4 cis8
+    d4 d8 a h4. a8
+    a2( g4) a
+    a d8 d cis a c[ d16 c]
+    h4 b8[ c16 b] a4. h8 %45
+    c[ g] c4~ c8[ b16 c] d4~
+    d8[ c] b a16([ g)] a4 r
+    r2 r8 g4 g8
+    es'4. es8 d4. h8
+    c4( g) a d %50
+    d8([ c)] b4 r d8 d
+    cis a c[ d16 c] h4 b8[ c16 b]
+    a4. a8 a4 a~
+    a8[ g16 fis] g4~ g8[ fis16 e] fis8[ g16 a]
+    b4 d~ d8[ c16 b] c4~ %55
+    c8[ b] a8. a16 g4 r
+    r2 g4. g8
+    es'4. es8 d4. fis,8
+    g2 fis4 d'8 d
+    cis a c([ d16 c] h4 b8) c16([ b)] %60
+    a4 a8 f! g([ a)] a4
+    d,2. d4
+    d d'2 c8[ h]
+    c2 h\fermata \bar "|." %64 FINIS
+  }
+}
+
+FacMePlagisSopranoLyrics = \lyricmode {
+  Fac me pla -- gis
+  vul -- ne -- ra --
+  ri, vul -- ne -- ra --
+  ri, vul -- ne -- ra --
+  _ ri, %5
+  fac me cru -- ce
+  in -- e -- bri -- a -- ri
+  et cru -- o --
+  re fi -- li --
+  i. In -- flam -- ma -- tis et ac -- %10
+  cen -- sus per te,
+  vir -- go, sim de --
+  fen -- sus in di -- e iu --
+  di -- ci -- i.
+  Chri -- ste, cum sit hinc ex -- %15
+  i -- re, da per
+  ma -- trem me ve -- ni -- re
+  ad pal -- mam, ad
+  pal -- mam vi -- cto -- ri --
+  ae. %20
+  Quan -- do
+  cor -- pus mo -- ri --
+  e -- _
+  _ _
+  _ _ _ %25
+  _ tur,
+  fac ut a -- ni --
+  ma do -- ne -- _
+  _ tur, do -- ne -- tur
+  pa -- ra -- di -- si glo -- %30
+  _ _ _ _ _
+  ri -- ae, pa -- ra --
+  di -- si glo -- ri --
+  ae,
+
+  fac ut a -- ni -- %37
+  ma do -- ne -- _
+  _ tur, do -- ne --
+  tur pa -- ra -- di -- si glo -- %40
+  _ _ _ ri --
+  ae, pa -- ra -- di -- si
+  glo -- ri --
+  ae, pa -- ra -- di -- si glo --
+  _ _ _ _ %45
+  _ _ _
+  _ ri -- ae,
+  fac ut
+  a -- ni -- ma do --
+  ne -- tur, do -- %50
+  ne -- tur pa -- ra --
+  di -- si glo -- _ _
+  _ ri -- ae, glo --
+  _ _
+  _ _ _ %55
+  _ ri -- ae,
+  fac ut
+  a -- ni -- ma do --
+  ne -- tur pa -- ra --
+  di -- si glo -- ri -- %60
+  ae, pa -- ra -- di -- si
+  glo -- ri --
+  ae. A --
+  _ _ men. %64 FINIS
+
+}

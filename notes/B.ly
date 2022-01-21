@@ -192,3 +192,125 @@ SanctaBassoLyrics = \lyricmode {
   me -- cum
   di -- vi -- de. %24 finis
 }
+
+FacMePlagisBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoFacMePlagis
+    r4 \mvTr es8\fE^\tutti es es4 es
+    r2 r4 es8 e
+    f2 f4 f8 fis
+    g2 g4 g8 g
+    f!4.( es8 d4) es %5
+    r es8 es c4 c
+    r8 a! a a b4 b
+    r2 b4 b
+    ges' es f4. f8
+    b,4 b8 as g!8. g16 g8 g %10
+    c4 c r c8 c
+    b!4 b r c8 c
+    d4 d8 d es4 c8 c
+    d4. d8 g,4 r
+    r \mvTr g'8\pE^\solo g f! f es d %15
+    c4 c r c8 c
+    c c d d es4 es
+    r es c c8 c
+    d4 cis8 cis d4. d8
+    g,4 r r2 %20
+    r r4 \mvTr g'8\fE^\tutti g
+    g,4 g \tempoMorietur r2
+    R1
+    r4 g8\p g es'2
+    d1~ %25
+    d2 d\fermata
+    \tempoFacUt R1*7 %33
+    d4.\fE d8 b'4. b8
+    a4. fis8 g[ d] g4~ %35
+    g8[ f] e4 d r
+    r2 r4  g8 g
+    fis d f[ g16 f] e4 es8[ f16 es]
+    d8[ e16 fis] g4~ g8[ f?16 g] a8. a16
+    d,4 r r2 %40
+    r a4. a8
+    f'4. f8 e4. cis8
+    d[ a] d2 cis4
+    d r r2
+    R1*2 %46
+    r4 g8 g fis d f[ g16 f]
+    e4 es8[ f16 es] d8 c4 h8
+    c4 r g4. g8
+    es'4. es8 d c b([ a)] %50
+    g4 g'8 g fis d f[ g16 f]
+    e8[ f16 g] \once \tieDashed a4~ a8[ g16 f] g8 g,
+    d'4 r r2
+    R1*2 %55
+    d4. d8 b'4. b8
+    a4. fis8 g([ f?)] es([ d)]
+    c4. c8 b4. a8
+    g4. g8 d'2
+    d1~ %60
+    d~
+    d2. d4
+    g, r c2~
+    c g\fermata \bar "|." %64 FINIS
+  }
+}
+
+FacMePlagisBassoLyrics = \lyricmode {
+  Fac me pla -- gis
+  vul -- ne --
+  ra -- ri, vul -- ne --
+  ra -- ri, vul -- ne --
+  ra -- ri, %5
+  fac me cru -- ce
+  in -- e -- bri -- a -- ri
+  et cru --
+  o -- re fi -- li --
+  i. In -- flam -- ma -- tis et ac -- %10
+  cen -- sus per te,
+  vir -- go, sim de --
+  fen -- sus in di -- e iu --
+  di -- ci -- i.
+  Chri -- ste, cum sit hinc ex -- %15
+  i -- re, da per
+  ma -- trem me ve -- ni -- re
+  ad pal -- mam, ad
+  pal -- mam vi -- cto -- ri --
+  ae. %20
+  Quan -- do
+  cor -- pus
+
+  mo -- ri -- e --
+  _ %25
+  tur,
+
+  fac ut a -- ni -- %34
+  ma do -- ne -- _ %35
+  _ tur
+  pa -- ra --
+  di -- si glo -- _ _
+  _ _ _ ri --
+  ae, %40
+  fac ut
+  a -- ni -- ma do --
+  ne -- _ _
+  tur
+
+  pa -- ra -- di -- si glo -- %47
+  _ _ _ _ ri --
+  ae, fac ut
+  a -- ni -- ma do -- ne -- %50
+  tur pa -- ra -- di -- si glo --
+  _ _ _ ri --
+  ae,
+
+  fac ut a -- ni -- %56
+  ma do -- ne -- tur
+  pa -- ra -- di -- si
+  glo -- ri -- ae,
+  glo -- %60
+
+  ri --
+  ae. A --
+  men. %64 FINIS
+}
